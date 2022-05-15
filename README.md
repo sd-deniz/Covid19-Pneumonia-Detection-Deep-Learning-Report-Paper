@@ -113,7 +113,7 @@ Accuracy: Each epoch, (number of Correct Prediction) / (number of Total Predicti
 
 1. None of these models except the babysitted "result model" was able to detect 3 covid images in the **Test** set. But ResNet50, **deeper model**, detected some of the covid images in the **Test2** dataset unlike others. In the table image this is denoted by (1) and (2) in orange color. And the models that couldn't detect covid images are denoted by the red asterix.
 
-2. Before training all these models, changing class weight of ResNet50 resulted in a same situation where model was able to detect some covid images correctly. With these results, it was deduced that similar results can be obtain by changing sample size an distribution.
+2. Before training all these models, changing class weight of ResNet50 resulted in a same situation where model was able to detect some covid images correctly. With these results, it was deduced that the similar results can be obtain by changing the sample size distribution.
 
 3. By looking at the table, the deeper ResNet model does not seem to cause any significant improvement.
 
